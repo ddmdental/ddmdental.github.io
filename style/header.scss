@@ -1,0 +1,98 @@
+header {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: $color-white;
+	box-shadow: 1px 1px 10px 1px $color-gray;
+	.wrapper {
+		nav {
+			width: 100%;
+			text-align: center;
+			ul {
+				li {
+					border-top: 5px solid $color-white;
+					box-sizing: border-box;
+					display: inline-block;
+					margin-right: 60px;
+					text-transform: uppercase;
+					font-weight: 600;
+					vertical-align: middle;
+					&:hover {
+						border-top: 5px solid $color-blue;
+					}
+					&.logo {
+						text-indent: -1000000px;
+						background-image: url('../images/logo.png');
+						background-size: cover;
+						width: 100px;
+						height: 100px;
+						&:hover {
+							border-top: 5px solid $color-white;
+						}
+					}
+					&.products-link {
+						position: relative;
+						.products {
+							visibility: hidden;
+							width: 100%;
+							background: $color-white;
+							position: absolute;
+							left: 0;
+							li {
+								display: block;
+								width: 100%;
+								border: 0;
+								&:hover {
+									border: 0;
+									background-color: $color-blue;
+									a {
+										color: $color-white;
+									}
+								}
+								a {
+									padding: 15px 0;
+								}
+								&.product-link-2 {
+									position: relative;
+									.inside-product {
+										visibility: hidden;
+										position: absolute;
+										top: 0;
+										right: -100%;
+										ul {
+											li {
+												background-color: $color-blue;
+												a {
+													color: $color-white;
+												}
+												&:hover {
+													background-color: $color-white;
+													a {
+														color: $color-blue;
+													}
+												}
+											}
+										}
+									}
+									&:hover .inside-product {
+										visibility: visible;
+									}
+								}
+							}
+						}
+					}
+					&.products-link:hover .products {
+						visibility: visible;
+					}
+					a {
+						padding: 40px 0;
+						color: $color-blue;
+						text-decoration: none;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

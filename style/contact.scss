@@ -1,0 +1,61 @@
+.contact {
+	background-color: $color-blue;
+	text-align: center;
+	padding-top: 80px;
+	h1 {
+		color: $color-white;
+		font-size: 40px;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	.wrapper {
+		.left, .right {
+			padding: 40px;	
+			display: inline-block;
+			width: 50%;
+			box-sizing: border-box;
+			vertical-align: top;
+		}
+		.left {
+			text-align: left;
+			ul {
+				li {
+					font-size: 18px;
+					margin-bottom: 40px;
+					color: $color-white;
+					text-transform: uppercase;
+				}
+			}
+		}
+		.right {
+			input, textarea {
+				display: block;
+				width: 80%;
+				margin: 0 auto;
+				background: none;
+				margin-bottom: 20px;
+				border: none;
+				border-bottom: 2px solid $color-white;
+				font-size: 18px;
+				&::placeholder {
+					color: $color-white;
+					opacity: .5;
+					text-transform: uppercase;
+				}
+			}
+			textarea {
+				height: 200px;
+				max-width: 80%;
+				min-width: 80%;
+				max-height: 200px;
+			}
+			input[type="submit"] {
+				background: $color-white;
+				color: $color-blue;
+				box-sizing: border-box;
+				padding: 15px 0;
+			}
+ 		}
+	}
+}

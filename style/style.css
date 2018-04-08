@@ -85,7 +85,7 @@ header {
         position: relative; }
         header .wrapper nav ul li.products-link .products {
           visibility: hidden;
-          width: 100%;
+          width: 200%;
           background: #FFFFFF;
           position: absolute;
           left: 0; }
@@ -135,12 +135,17 @@ header {
       height: 420px;
       text-indent: -10000px; }
       .hero .wrapper .slider .slide.slide-1 {
-        background-image: url("../images/hero-1.png");
+        background-image: url("../images/hero-1.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-2 {
-        background: blue; }
+        background-image: url("../images/hero-2.jpg");
+        background-size: cover; }
       .hero .wrapper .slider .slide.slide-3 {
-        background: red; }
+        background-image: url("../images/hero-3.jpg");
+        background-size: cover; }
+      .hero .wrapper .slider .slide.slide-4 {
+        background-image: url("../images/hero-4.png");
+        background-size: cover; }
     .hero .wrapper .slider .slick-arrow:before {
       color: #0097e6; }
 
@@ -287,6 +292,11 @@ header {
     color: #0097e6;
     text-transform: uppercase;
     font-weight: 600; }
+  .footer h3 {
+    float: left;
+    color: #d2dae2;
+    text-transform: uppercase;
+    font-weight: 400; }
 
 .modal {
   position: fixed;

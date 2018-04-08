@@ -9,14 +9,20 @@
 				height: 420px;
 				text-indent: -10000px;
 				&.slide-1 {
-					background-image: url('../images/hero-1.png');
+					background-image: url('../images/hero-1.jpg');
 					background-size: cover;
 				}
 				&.slide-2 {
-					background: blue;
+					background-image: url('../images/hero-2.jpg');
+					background-size: cover;
 				}
 				&.slide-3 {
-					background: red;
+					background-image: url('../images/hero-3.jpg');
+					background-size: cover;
+				}
+				&.slide-4 {
+					background-image: url('../images/hero-4.png');
+					background-size: cover;
 				}
 			}
 			.slick-arrow {

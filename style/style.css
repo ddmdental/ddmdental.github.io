@@ -141,6 +141,8 @@ header {
         background: blue; }
       .hero .wrapper .slider .slide.slide-3 {
         background: red; }
+    .hero .wrapper .slider .slick-arrow:before {
+      color: #0097e6; }
 
 .featured {
   height: 100vh;

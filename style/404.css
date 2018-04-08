@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0; }
+  body .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #0097e6;
+    flex-flow: column;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase; }
+    body .container img {
+      width: 100px; }
+    body .container h1 {
+      font-size: 80px;
+      padding: 0;
+      margin: 0; }
+    body .container h2 {
+      font-size: 30px; }
+
+/*# sourceMappingURL=404.css.map */

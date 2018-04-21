@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+header {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 10px 1px #d2dae2; }
+  header .wrapper nav {
+    width: 100%;
+    text-align: center; }
+    header .wrapper nav ul li {
+      border-top: 5px solid #FFFFFF;
+      box-sizing: border-box;
+      display: inline-block;
+      margin-right: 60px;
+      text-transform: uppercase;
+      font-weight: 600;
+      vertical-align: middle; }
+      header .wrapper nav ul li:hover {
+        border-top: 5px solid #0097e6; }
+      header .wrapper nav ul li.logo {
+        text-indent: -1000000px;
+        background-image: url("../images/logo.png");
+        background-size: cover;
+        width: 100px;
+        height: 100px; }
+        header .wrapper nav ul li.logo:hover {
+          border-top: 5px solid #FFFFFF; }
+      header .wrapper nav ul li.products-link {
+        position: relative; }
+        header .wrapper nav ul li.products-link .products {
+          visibility: hidden;
+          width: 200%;
+          background: #FFFFFF;
+          position: absolute;
+          left: 0; }
+          header .wrapper nav ul li.products-link .products li {
+            display: block;
+            width: 100%;
+            border: 0; }
+            header .wrapper nav ul li.products-link .products li:hover {
+              border: 0;
+              background-color: #0097e6; }
+              header .wrapper nav ul li.products-link .products li:hover a {
+                color: #FFFFFF; }
+            header .wrapper nav ul li.products-link .products li a {
+              padding: 15px 0; }
+            header .wrapper nav ul li.products-link .products li.product-link-2 {
+              position: relative; }
+              header .wrapper nav ul li.products-link .products li.product-link-2 .inside-product {
+                visibility: hidden;
+                position: absolute;
+                top: 0;
+                right: -100%; }
+                header .wrapper nav ul li.products-link .products li.product-link-2 .inside-product ul li {
+                  background-color: #0097e6; }
+                  header .wrapper nav ul li.products-link .products li.product-link-2 .inside-product ul li a {
+                    color: #FFFFFF; }
+                  header .wrapper nav ul li.products-link .products li.product-link-2 .inside-product ul li:hover {
+                    background-color: #FFFFFF; }
+                    header .wrapper nav ul li.products-link .products li.product-link-2 .inside-product ul li:hover a {
+                      color: #0097e6; }
+              header .wrapper nav ul li.products-link .products li.product-link-2:hover .inside-product {
+                visibility: visible; }
+      header .wrapper nav ul li.products-link:hover .products {
+        visibility: visible; }
+      header .wrapper nav ul li a {
+        padding: 40px 0;
+        color: #0097e6;
+        text-decoration: none;
+        display: block; }
+
+.products .wrapper {
+  padding-top: 180px;
+  margin-bottom: 50px; }
+  .products .wrapper .filter-container, .products .wrapper .products-list {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; }
+  .products .wrapper .filter-container {
+    width: 20%; }
+    .products .wrapper .filter-container h2, .products .wrapper .filter-container h3 {
+      font-weight: 700;
+      color: #0097e6; }
+    .products .wrapper .filter-container h2 {
+      font-size: 24px; }
+    .products .wrapper .filter-container h3 {
+      font-size: 18px;
+      padding: 20px 0; }
+    .products .wrapper .filter-container ul li {
+      padding: 5px 0; }
+  .products .wrapper .products-list {
+    width: 78%;
+    position: relative; }
+    .products .wrapper .products-list h1 {
+      color: #0097e6;
+      font-weight: 600;
+      font-size: 40px;
+      margin-bottom: 20px;
+      z-index: 2;
+      text-transform: uppercase;
+      display: inline-block; }
+    .products .wrapper .products-list input {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      width: 250px;
+      padding: 8px 15px;
+      border-radius: 500px;
+      border: 1px solid #d2dae2; }
+    .products .wrapper .products-list ul li {
+      width: 24%;
+      text-align: center;
+      padding: 15px;
+      box-sizing: border-box;
+      display: inline-block; }
+      .products .wrapper .products-list ul li a {
+        text-decoration: none; }
+      .products .wrapper .products-list ul li img {
+        width: 100%; }
+      .products .wrapper .products-list ul li p {
+        color: #333;
+        margin: 20px; }
+      .products .wrapper .products-list ul li h4 {
+        color: #0097e6;
+        font-weight: 700; }
+
+.contact {
+  background-color: #0097e6;
+  text-align: center;
+  padding-top: 80px; }
+  .contact h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px; }
+  .contact .wrapper .left, .contact .wrapper .right {
+    padding: 40px;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    vertical-align: top; }
+  .contact .wrapper .left {
+    text-align: left; }
+    .contact .wrapper .left ul li {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+  .contact .wrapper .right input, .contact .wrapper .right textarea {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    background: none;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    font-size: 18px; }
+    .contact .wrapper .right input::placeholder, .contact .wrapper .right textarea::placeholder {
+      color: #FFFFFF;
+      opacity: .5;
+      text-transform: uppercase; }
+  .contact .wrapper .right textarea {
+    height: 200px;
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 200px; }
+  .contact .wrapper .right input[type="submit"] {
+    background: #FFFFFF;
+    color: #0097e6;
+    box-sizing: border-box;
+    padding: 15px 0; }
+
+.footer {
+  text-align: center;
+  padding: 20px; }
+  .footer h2 {
+    color: #0097e6;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .footer h3 {
+    float: left;
+    color: #d2dae2;
+    text-transform: uppercase;
+    font-weight: 400; }
+
+/*# sourceMappingURL=products.css.map */

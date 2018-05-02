@@ -1,0 +1,100 @@
+.education {
+    background-color: white;
+    margin-top: 100px;
+    .banner-image {
+        margin: 0px 15.3% -3px 15.3%;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        height: 400px;
+        color: transparent;
+        background-image: url(../images/education-banner.jpg);
+        -webkit-text-stroke: 1px black;
+        z-index: 100;
+        img {
+            min-width: 1000px;
+            margin: 0px;
+            width: 100%;   
+        }
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 70px;
+            letter-spacing: 15px;
+        }
+    }
+    .wrapper {
+        height: 400px;
+        .text{
+            display: inline-block;
+            width: 50%;
+            vertical-align: top;
+            text-align: center;
+            ul {
+                .label{
+                    margin: 50px 0;
+                    font-size: 40px;
+                    font-style: italic;
+                    letter-spacing: 5px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: #0097e6;
+                    }
+                .description {
+                    margin: 50px 30px;
+                    }
+                li {
+                    
+                }
+            }
+        }
+        .overlay{
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            background: rgba(219,220,221, .3);
+            z-index: 2;
+            margin-right: 50%;
+        }
+        .button{
+            &:hover{
+                background-color: white;
+                color: #0097e6;
+            }
+            background-color: #0097e6;
+            color: white;
+            padding: 20px 40px;
+            margin-top: 40px;
+            position: absolute;
+            z-index: 3;
+            letter-spacing: 2px;
+        }
+        .image{
+            display: inline-block;
+            width: 50%;
+            vertical-align: top;
+            z-index: 1;
+            position:relative;
+            max-height: 100%;
+            max-width: 100%;
+            ul {
+                li {
+                    font-size: 18px;
+                    color: white;
+                    text-transform: uppercase;
+                    img{
+                        height: 400px;
+                        max-width: 100%;
+                    }
+                    .featured-img {
+                    }
+                    .featured-img-1{
+                        
+                    }
+                }
+            }
+        }
+    }
+}

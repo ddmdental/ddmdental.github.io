@@ -1,0 +1,58 @@
+.specific {
+    .banner-image {
+        background-size: cover;
+        margin: auto;
+        top: 100px;
+        color: transparent;
+        position: relative;
+        width: 1000px;
+        height: 400px;
+        background-image: url(../images/education-banner.jpg);
+        -webkit-text-stroke: 1px black;
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 70px;
+            letter-spacing: 15px;
+        }
+    }
+    .data-sec {
+        margin: 0 auto;
+        position: relative;
+        width: 700px;
+        height: auto;
+        background-color: white;
+        h1 {
+            padding-top: 55px;
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: 10px;
+            text-align: center;
+        }
+        p {
+            padding: 50px 100px 0 100px;
+            text-align: left;
+            font-size: 14px;
+            line-height: 20px; 
+        }
+        .data-image {
+            padding: 40px 0 150px 0;
+            margin: 0 auto;
+            width: 500px;
+            .overlay {
+                margin: 0 auto;
+                height: 333px;
+                width: 500px;
+                position: absolute;
+                background: rgba(219,220,221, .3);
+                z-index: 2;
+            }
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

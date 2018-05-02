@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DDM Dental</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">	
+	<link rel="stylesheet" type="text/css" href="style/education.css">		
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+
+	<!-- Slick Slider -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="import" href="header.html">
+    
+</head>
+<body>
+    <div id="header-template"></div>
+
+	<section class="education">
+            <div class="banner-image">
+<!--                <img src="images/education-banner.jpg" alt="Education">-->
+                <div class="text">EDUCATION</div>
+            </div>
+        <div class="wrapper">
+			<div class="text">
+				<ul>
+					<li class="label">Endodontics</li>
+					<li>____________________________________________</li>
+					<li class="description">
+						suite 1509 medical plaza makati,
+						amorsolo st. cor. dela rosa st.
+						legaspi village, makati city, Ph
+					</li>
+				</ul>
+			</div><div class="image">
+            <div class="overlay"></div>
+            <div class="button">LEARN MORE</div>
+				<ul>
+					<li><img class="featured-img featured-img-1" src="images/learn-1.jpg" /></li>
+				</ul>
+			</div>
+		</div>
+        <div class="wrapper">
+            <div class="button" style="margin-left: 289px;">LEARN MORE</div>
+            <div class="image"><div class="overlay"></div>
+				<ul>
+					<li><img class="featured-img featured-img-1" src="images/learn-2.jpg" /></li>
+				</ul>
+			</div><div class="text">
+				<ul>
+					<li class="label">Orthodontics</li>
+					<li>____________________________________________</li>
+					<li class="description">
+						suite 1509 medical plaza makati,
+						amorsolo st. cor. dela rosa st.
+						legaspi village, makati city, Ph
+					</li>
+				</ul>
+			</div>
+		</div><div class="wrapper">
+			<div class="text">
+				<ul>
+					<li class="label">Periodontics</li>
+					<li>____________________________________________</li>
+					<li class="description">
+						suite 1509 medical plaza makati,
+						amorsolo st. cor. dela rosa st.
+						legaspi village, makati city, Ph
+					</li>
+				</ul>
+			</div><div class="image">
+            <div class="overlay"></div>
+            <div class="button">LEARN MORE</div>
+				<ul>
+					<li><img class="featured-img featured-img-1" src="images/learn-3.jpg" /></li>
+				</ul>
+			</div>
+		</div>
+        
+        <div class="wrapper">
+            <div class="button" style="margin-left: 289px;">LEARN MORE</div>
+            <div class="image"><div class="overlay"></div>
+				<ul>
+					<li><img class="featured-img featured-img-1" src="images/learn-4.jpg" /></li>
+				</ul>
+			</div><div class="text">
+				<ul>
+					<li class="label">Restorative Dentistry</li>
+					<li>____________________________________________</li>
+					<li class="description">
+						suite 1509 medical plaza makati,
+						amorsolo st. cor. dela rosa st.
+						legaspi village, makati city, Ph
+					</li>
+				</ul>
+			</div>
+		</div>
+        
+        <div class="wrapper">
+			<div class="text">
+				<ul>
+					<li class="label">Surgery</li>
+					<li>____________________________________________</li>
+					<li class="description">
+						suite 1509 medical plaza makati,
+						amorsolo st. cor. dela rosa st.
+						legaspi village, makati city, Ph
+					</li>
+				</ul>
+			</div><div class="image"><div class="overlay"></div>
+            <div class="button">LEARN MORE</div>
+				<ul>
+					<li><img class="featured-img featured-img-1" src="images/learn-5.jpg" /></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+    <section class="contact">
+		<h1>Contact Us</h1>
+		<div class="wrapper">
+			<div class="left">
+				<ul>
+					<li>+63 927 039 6000 / +63 922 309 3888</li>
+					<li>+632 573 7320</li>
+					<li>info@ddmdental.com</li>
+					<li>sales@ddmdental.com</li>
+					<li>
+						suite 1509 medical plaza makati,
+						amorsolo st. cor. dela rosa st.
+						legaspi village, makati city, Ph
+					</li>
+				</ul>
+			</div>
+            <div class="right">
+				<form method="post">
+					<input type="text" name="name" placeholder="Name">
+					<input type="text" name="contact" placeholder="Contact Number">
+					<input type="text" name="email" placeholder="Email">
+					<textarea placeholder="Subject"></textarea>
+					<input type="submit" name="">
+				</form>
+            </div>
+		</div>
+	</section>
+    <section class="footer">
+		<h2>All rights reserved 2018</h2>
+		<h3>Version 1.0.3</h3>
+	</section>
+
+</body>
+
+<script>
+    var link = document.querySelector('link[rel="import"]');
+
+    var template = link.import.querySelector('template');
+    var clone = document.importNode(template.content, true);
+
+    document.querySelector('#header-template').appendChild(clone);
+</script>
+    
+</html>

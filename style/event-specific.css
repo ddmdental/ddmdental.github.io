@@ -1,0 +1,114 @@
+.content .banner {
+  width: 1000px;
+  height: 700px;
+  background-size: cover;
+  margin: 100px auto 0 auto;
+  position: relative;
+  background-image: url(../images/event-specific.jpg); }
+  .content .banner .overlay {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgba(219, 220, 221, 0.2); }
+    .content .banner .overlay h1 {
+      padding: 15%;
+      color: white;
+      font-size: 70px;
+      text-align: center;
+      height: 50px;
+      font-weight: 600; }
+    .content .banner .overlay .underline {
+      margin-top: 100px;
+      width: 80%;
+      height: 20px;
+      background-color: #0097e6;
+      opacity: 0.6; }
+    .content .banner .overlay h2 {
+      color: white;
+      text-align: center;
+      padding: 50px 15%;
+      font-size: 25px;
+      text-transform: uppercase; }
+.content .bottom {
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  border-bottom: 1px solid rgba(219, 220, 221, 0.5); }
+  .content .bottom .speaker {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgba(219, 220, 221, 0.5); }
+    .content .bottom .speaker h1 {
+      text-align: center;
+      position: relative;
+      margin-top: -20px;
+      font-size: 40px;
+      font-weight: 600;
+      color: transparent;
+      -webkit-text-stroke: 2px black; }
+    .content .bottom .speaker .quarter {
+      margin: 0;
+      float: left;
+      width: 248px;
+      height: 50%;
+      border: 1px solid white; }
+      .content .bottom .speaker .quarter:hover {
+        background-color: white; }
+      .content .bottom .speaker .quarter .speaker-1 {
+        margin: 20px auto;
+        width: 60%;
+        height: 60%;
+        background: black url(../images/willand.JPG) center top no-repeat;
+        background-size: cover;
+        border: 0;
+        shape-outside: circle(50% at 50% 50%);
+        shape-margin: 20px;
+        clip-path: circle(50% at 50% 50%);
+        overflow: hidden; }
+      .content .bottom .speaker .quarter h2 {
+        text-align: center;
+        color: black;
+        font-weight: 600; }
+      .content .bottom .speaker .quarter h3 {
+        font-size: 15px;
+        text-align: center;
+        color: black; }
+  .content .bottom .details {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #0097e6; }
+    .content .bottom .details .text {
+      margin: 40px;
+      color: white; }
+      .content .bottom .details .text h1 {
+        font-size: 30px;
+        font-weight: 600; }
+      .content .bottom .details .text h2 {
+        padding-top: 20px; }
+      .content .bottom .details .text .date {
+        float: left;
+        margin: 20px 0 0 0;
+        width: 100px;
+        height: 70px;
+        border: 2px solid white; }
+        .content .bottom .details .text .date h1 {
+          text-align: center;
+          font-size: 70px; }
+      .content .bottom .details .text .day {
+        float: left;
+        margin: 20px 0 0 20px; }
+        .content .bottom .details .text .day h1 {
+          font-size: 40px;
+          letter-spacing: 5px; }
+        .content .bottom .details .text .day h2 {
+          padding-top: 10px; }
+      .content .bottom .details .text .venue {
+        font-size: 20px;
+        letter-spacing: 2px;
+        float: left;
+        display: block;
+        margin: 20px 0; }
+
+/*# sourceMappingURL=event-specific.css.map */

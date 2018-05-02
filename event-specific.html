@@ -16,11 +16,117 @@
 	<!-- Slick Slider -->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="import" href="header.html">
     
 </head>
 <body>
-    <div id="header-template"></div>
+    <header>
+		<div class="wrapper">
+			<nav>
+				<ul>
+					<li><a href="http://www.ddmdental.com/404">Home</a></li>
+					<li class="products-link">
+						<a href="http://www.ddmdental.com/products.html">Products</a>
+						<nav class="products">
+							<ul>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Brackets</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">Heimas V</a></li>
+											<li><a href="http://www.ddmdental.com/404">Heimas mini</a></li>
+											<li><a href="http://www.ddmdental.com/404">EPS</a></li>
+											<li><a href="http://www.ddmdental.com/404">Zeemas V</a></li>
+											<li><a href="http://www.ddmdental.com/404">Zeemas A</a></li>
+											<li><a href="http://www.ddmdental.com/404">Zeemas C</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Buccal Tubes</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">TUBA</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Molar Bands</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">MOLA</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Attachments</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">Easy Clip Series</a></li>
+											<li><a href="http://www.ddmdental.com/404">Lingual Button</a></li>
+											<li><a href="http://www.ddmdental.com/404">Eyelets</a></li>
+											<li><a href="http://www.ddmdental.com/404">Lingual Attachments</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Wires</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">Quana</a></li>
+											<li><a href="http://www.ddmdental.com/404">Ebba</a></li>
+											<li><a href="http://www.ddmdental.com/404">Tilda</a></li>
+											<li><a href="http://www.ddmdental.com/404">Sera</a></li>
+											<li><a href="http://www.ddmdental.com/404">Stainless Steel Ties</a></li>
+											<li><a href="http://www.ddmdental.com/404">Niti Coil Springs</a></li>
+											<li><a href="http://www.ddmdental.com/404">Stainless Steel Springs</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Elastomeric Products</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">Orthodontic Elastics</a></li>
+											<li><a href="http://www.ddmdental.com/404">Elastomeric Ties</a></li>
+											<li><a href="http://www.ddmdental.com/404">Elastomeric Chain</a></li>
+											<li><a href="http://www.ddmdental.com/404">Elastic Plasters</a></li>
+											<li><a href="http://www.ddmdental.com/404">Smile Shapers</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Mirrors</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">Utter Vivid</a></li>
+											<li><a href="http://www.ddmdental.com/404">Utter Vivid G</a></li>
+											<li><a href="http://www.ddmdental.com/404">Utter Vivid + Plus</a></li>
+										</ul>
+									</nav>
+								</li>
+								<li class="product-link-2">
+									<a href="http://www.ddmdental.com/404">Instruments</a>
+									<nav class="inside-product">
+										<ul>
+											<li><a href="http://www.ddmdental.com/404">Cutting Instruments</a></li>
+											<li><a href="http://www.ddmdental.com/404">Utility Pliers</a></li>
+											<li><a href="http://www.ddmdental.com/404">Wire Bending</a></li>
+											<li><a href="http://www.ddmdental.com/404">Bracket Instruments</a></li>
+										</ul>
+									</nav>
+								</li>
+							</ul>
+						</nav>
+					</li>
+					<li><a href="http://www.ddmdental.com/404">Events</a></li>
+					<li class="logo"><a href="http://www.ddmdental.com/404">Logo</a></li>
+					<li><a href="http://www.ddmdental.com/404">Catalog</a></li>
+					<li><a href="http://www.ddmdental.com/404">About</a></li>
+					<li><a href="http://www.ddmdental.com/404">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
     
     <section class="content">
         <div class="banner">
@@ -81,14 +187,5 @@
 	</section>
 
 </body>
-
-<script>
-    var link = document.querySelector('link[rel="import"]');
-
-    var template = link.import.querySelector('template');
-    var clone = document.importNode(template.content, true);
-
-    document.querySelector('#header-template').appendChild(clone);
-</script>
     
 </html>

@@ -5,8 +5,8 @@
   color: transparent;
   position: relative;
   width: 1000px;
-  height: 400px;
-  background-image: url(../images/education-banner.jpg);
+  height: 600px;
+  background-image: url(../images/restorative.jpg);
   -webkit-text-stroke: 1px black; }
   .specific .banner-image .text {
     position: absolute;
@@ -18,7 +18,7 @@
 .specific .data-sec {
   margin: 0 auto;
   position: relative;
-  width: 700px;
+  width: 900px;
   height: auto;
   background-color: white; }
   .specific .data-sec h1 {
@@ -28,10 +28,69 @@
     letter-spacing: 10px;
     text-align: center; }
   .specific .data-sec p {
-    padding: 50px 100px 0 100px;
+    font-style: italic;
+    padding: 25px 100px 25px 100px;
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px; }
+    .specific .data-sec p .title {
+      color: maroon;
+      font-weight: 600; }
+    .specific .data-sec p .title-contact {
+      color: black;
+      padding: 0; }
+  .specific .data-sec table {
+    border: 1px solid black;
+    width: 700px;
+    margin: 0 auto 100px auto;
+    border-spacing: 5px; }
+  .specific .data-sec th {
+    border: 1px solid black;
+    padding: 15px; }
+  .specific .data-sec td {
+    border: 1px solid black;
+    padding: 15px; }
+  .specific .data-sec .schedule {
+    display: inline-block;
+    width: 49%;
+    height: 60px;
+    border: 1px solid white;
+    background-color: maroon;
+    text-align: center; }
+    .specific .data-sec .schedule h2 {
+      color: white;
+      padding: 5px;
+      font-size: 25px; }
+  .specific .data-sec .schedule-details {
+    border: 1px solid maroon;
+    background-color: white;
+    text-align: left; }
+    .specific .data-sec .schedule-details h3 {
+      text-align: left;
+      margin-left: 5px;
+      line-height: 25px; }
+  .specific .data-sec .speaker-wrapper {
+    width: 900px;
+    height: 375;
+    border: 5px solid maroon;
+    padding-bottom: 10px; }
+    .specific .data-sec .speaker-wrapper img {
+      margin: 5px;
+      display: inline-block;
+      float: left; }
+    .specific .data-sec .speaker-wrapper .details {
+      display: inline-block;
+      width: 640px;
+      height: 375px;
+      background-color: white;
+      position: relative; }
+      .specific .data-sec .speaker-wrapper .details p {
+        padding: 0px;
+        font-size: 14px; }
+        .specific .data-sec .speaker-wrapper .details p .title {
+          font-size: 20px; }
+    .specific .data-sec .speaker-wrapper h4 {
+      margin: 5px; }
   .specific .data-sec .data-image {
     padding: 40px 0 150px 0;
     margin: 0 auto;

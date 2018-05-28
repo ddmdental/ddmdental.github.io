@@ -67,7 +67,7 @@ header {
       border-top: 5px solid #FFFFFF;
       box-sizing: border-box;
       display: inline-block;
-      margin-right: 60px;
+      margin: 0 30px 0 30px;
       text-transform: uppercase;
       font-weight: 600;
       vertical-align: middle; }
@@ -84,12 +84,14 @@ header {
       header .wrapper nav ul li.products-link {
         position: relative; }
         header .wrapper nav ul li.products-link .products {
+          margin-left: -30px;
           visibility: hidden;
           width: 200%;
           background: #FFFFFF;
           position: absolute;
           left: 0; }
           header .wrapper nav ul li.products-link .products li {
+            margin-left: 0px;
             display: block;
             width: 100%;
             border: 0; }
@@ -134,37 +136,11 @@ header {
     .product-container .wrapper h2 a {
       color: #333;
       text-decoration: none; }
-  .product-container .wrapper .product {
+  .product-container .wrapper .products {
     padding-top: 50px; }
-    .product-container .wrapper .product img, .product-container .wrapper .product .description {
-      display: inline-block; }
-    .product-container .wrapper .product img {
-      width: 30%; }
-    .product-container .wrapper .product .description {
-      width: 68%;
-      box-sizing: border-box;
-      padding: 20px 0px 20px 140px;
-      vertical-align: top; }
-      .product-container .wrapper .product .description h1, .product-container .wrapper .product .description h2 {
-        color: #0097e6;
-        font-weight: 600;
-        margin-bottom: 20px;
-        z-index: 2;
-        text-transform: uppercase; }
-      .product-container .wrapper .product .description h1 {
-        font-size: 40px; }
-      .product-container .wrapper .product .description h2 {
-        font-size: 30px; }
-      .product-container .wrapper .product .description p {
-        line-height: 1.5em;
-        margin-bottom: 20px; }
-      .product-container .wrapper .product .description button {
-        border: 0;
-        background: #0097e6;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        font-weight: 600;
-        padding: 10px 20px; }
+    .product-container .wrapper .products img {
+      margin: auto;
+      width: 1000px; }
 
 .contact {
   background-color: #0097e6;
@@ -179,7 +155,7 @@ header {
   .contact .wrapper .left, .contact .wrapper .right {
     padding: 40px;
     display: inline-block;
-    width: 50%;
+    width: 49%;
     box-sizing: border-box;
     vertical-align: top; }
   .contact .wrapper .left {

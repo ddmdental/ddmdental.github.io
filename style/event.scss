@@ -44,7 +44,7 @@
                 float:left;
                 height:200px;
                 width:500px;
-                background: black url(../images/education-banner.jpg) center top no-repeat;
+                background: black center top no-repeat;
                 background-size:cover;
                 border: 0;
                 shape-outside: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -83,12 +83,14 @@
                 font-size: 25px;    
             }
             #location {
-                margin: 0 0;
-                font-size: 12px;
+                margin: 20px 0;
+                font-size: 18px;
+                color: black;
             }
             #time {
                 margin: 0 0;
-                font-size: 12px;
+                font-size: 18px;
+                color: black;
             }
             #text {
                 color: rgba(219,220,221, .9);

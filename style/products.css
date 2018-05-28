@@ -67,7 +67,7 @@ header {
       border-top: 5px solid #FFFFFF;
       box-sizing: border-box;
       display: inline-block;
-      margin-right: 60px;
+      margin: 0 30px 0 30px;
       text-transform: uppercase;
       font-weight: 600;
       vertical-align: middle; }
@@ -84,12 +84,14 @@ header {
       header .wrapper nav ul li.products-link {
         position: relative; }
         header .wrapper nav ul li.products-link .products {
+          margin-left: -30px;
           visibility: hidden;
           width: 200%;
           background: #FFFFFF;
           position: absolute;
           left: 0; }
           header .wrapper nav ul li.products-link .products li {
+            margin-left: 0px;
             display: block;
             width: 100%;
             border: 0; }
@@ -144,6 +146,8 @@ header {
       padding: 20px 0; }
     .products .wrapper .filter-container ul li {
       padding: 5px 0; }
+      .products .wrapper .filter-container ul li:hover {
+        background-color: #0097e6; }
   .products .wrapper .products-list {
     width: 78%;
     position: relative; }
@@ -193,7 +197,7 @@ header {
   .contact .wrapper .left, .contact .wrapper .right {
     padding: 40px;
     display: inline-block;
-    width: 50%;
+    width: 49%;
     box-sizing: border-box;
     vertical-align: top; }
   .contact .wrapper .left {

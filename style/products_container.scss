@@ -1,3 +1,5 @@
+@import 'variables';
+
 .products {
 	.wrapper {
 		padding-top: 180px;
@@ -23,6 +25,9 @@
 			ul {
 				li {
 					padding: 5px 0;
+                    &:hover {
+                        background-color: $color-blue;
+                    }
 				}
 			}
 		}

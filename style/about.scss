@@ -1,0 +1,28 @@
+@import 'reset';
+
+@import 'variables';
+@import 'base';
+@import 'header';
+
+.about-page {
+	padding-top: 140px;
+	text-align: center;
+	h1 {
+		font-size: 40px;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+	img {
+		width: 200px;
+	}
+	p {
+		margin-bottom: 40px;
+		font-size: 20px;
+		padding: 20px 200px 20px 200px;	
+	}
+}
+
+
+@import 'contact';
+@import 'footer';

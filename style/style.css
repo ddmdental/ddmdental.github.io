@@ -261,8 +261,7 @@ header {
     .contact .wrapper .left ul li {
       font-size: 18px;
       margin-bottom: 40px;
-      color: #FFFFFF;
-      text-transform: uppercase; }
+      color: #FFFFFF; }
   .contact .wrapper .right input, .contact .wrapper .right textarea {
     display: block;
     width: 80%;

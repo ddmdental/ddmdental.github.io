@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DDM Dental</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/event-2.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+
+	<!-- Slick Slider -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+</head>
+<body>
+	<div id="navbarTemplate"></div>
+        
+    <div class="event-body">
+        <div class="header-wrapper">
+            <div class="header-left">
+                <div class="text-wrapper">
+                    <h1>DDM Enterprise & BMTC</h1>
+                    <p>in cooperation with</p>
+                    <h1>Southwestern University &</h1>
+                    <h1>University of the Philippines College of Dentistry</h1>
+                    <p style="font-style: italic;">present</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="../images/final-draft/GENIUS BRACESTORM-01.png" alt="">
+                <p>Orthodontic Manageent of Patients:</br>
+                A Simple Approach from Start to Finish</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <ul id="horizontal-list">
+                <li id="speakers" class="title-1">
+                    <div class="speakers-wrapper">
+                        <img src="../images/final-draft/employees.png" alt="">
+                        <h1>OUR SPEAKERS</h1>
+                        <p>The goal is to give attendees an educational and fun experience by inviting influential and reknowned people in the industry.</p>
+                    </div>
+                </li>
+                <li id="details" class="title-2">
+                    <div class="details-wrapper">
+                        <h1>EVENT DETAILS</h1>
+                        <p>Venue</p>
+                        <p>Date & Time</p>
+                        <p>Lecture Outline</p>
+                    </div>
+                </li>
+                <li id="register">
+                    <div class="register-wrapper title-3">
+                        <p>- REGISTER</p>
+                    </div>
+                    <div class="download-button">
+                        <a href="images/final-draft/final-draft-4.jpg" download="regform">
+                        <p>DOWNLOAD FORM</p>
+                            </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+     <div class="modal1 modal-title-1">
+		<div class="modal-content">
+			<img src="images/final-draft/final-draft-2.jpeg">
+		</div>
+	</div>
+     <div class="modal2 modal-title-2">
+		<div class="modal-content">
+			<img src="images/final-draft/final-draft-3.jpg">
+		</div>
+	</div>
+     <div class="modal3 modal-title-3">
+		<div class="modal-content">
+			<img src="images/final-draft/final-draft-6.jpg">
+		</div>
+	</div>
+    
+    <div id="contactTemplate"></div>
+    
+    <section class="footer">
+		<h2>All rights reserved 2018</h2>
+		<h3>Version 1.0.3</h3>
+	</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-git.min.js">
+    </script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.title-1').on('click', function() {
+                console.log($(this).hasClass('.title-1'));
+					$('.modal1').css("display","flex");
+			});
+            
+			$('.title-2').on('click', function() {
+                console.log($(this).hasClass('.title-1'));
+					$('.modal2').css("display","flex");
+			});
+              
+			$('.title-3').on('click', function() {
+                console.log($(this).hasClass('.title-1'));
+					$('.modal3').css("display","flex");
+			});
+            
+			$('.modal-title-1').on('click', function(){
+				$('.modal1').css('display','none');
+			});  
+            
+			$('.modal-title-2').on('click', function(){
+				$('.modal2').css('display','none');
+			});
+            
+			$('.modal-title-3').on('click', function(){
+				$('.modal3').css('display','none');
+			});
+			
+		});
+    </script>
+    <script> 
+    $(function(){
+      $("#navbarTemplate").load("navbar.html"); 
+    });
+    </script> 
+    
+    <script> 
+    $(function(){
+      $("#contactTemplate").load("contact.html"); 
+    });
+    </script> 
+
+</body>
+    
+</html>

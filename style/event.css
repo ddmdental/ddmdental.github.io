@@ -43,7 +43,7 @@
         border: 0;
         shape-outside: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
         shape-margin: 20px;
-        clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
         overflow: hidden; }
         .event .float .container .shaped .text-container {
           color: black;

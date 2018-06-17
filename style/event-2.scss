@@ -18,7 +18,7 @@
             shape-outside: polygon(100% 0, 100% 71%, 18% 100%, 0 78%, 0 0);
             shape-margin: 20px;
             shape-inside: circle();
-            clip-path: polygon(100% 0, 100% 71%, 18% 100%, 0 78%, 0 0);
+            -webkit-clip-path: polygon(100% 0, 100% 71%, 18% 100%, 0 78%, 0 0);
             .text-wrapper {
                 padding-top: 100px;
                 line-height: 35px;

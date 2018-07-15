@@ -2,59 +2,30 @@
 .event-body {
     height: 100%;
     .header-wrapper{
-        margin-top: 120px;
-        height: 600px;
+        margin-top: 100px;
+        height: 650px;
         width: 100%;
-        background-image: url(../images/event-header2.jpg);
+        background-image: url(../images/event-header4.jpg);
         background-size: cover;
         display: inline-block;
-        .header-left {
-            margin-top: -20px;
-            position: relative;
-            height: 650px;
-            float: left;
-            width: 40%;
-            background-color: #6e1a66;
-            shape-outside: polygon(100% 0, 100% 71%, 18% 100%, 0 78%, 0 0);
-            shape-margin: 20px;
-            shape-inside: circle();
-            -webkit-clip-path: polygon(100% 0, 100% 71%, 18% 100%, 0 78%, 0 0);
-            .text-wrapper {
-                padding-top: 100px;
-                line-height: 35px;
-//                color: #0097e6;
-                color: white;
-                text-align: left;
-                h1 {
-                    margin: 0 50px;
-                    font-size: 35px;
-                    font-weight: 900;
-                }
-                 p {
-                    margin: 30px 50px;
-                    font-size: 20px;
-                     
-                }
-            }
-        }
-        .header-right {
+        .header {
             height: 600px;
-            width: 60%;
+            width: 100%;
             float: right;
             img {
-                margin-top: 100px;
-                margin-left: 10%;
-                height: 40px;
-                width: 40%;
+                margin-left: 20%;
+                height: 80px;
+                width: 60%;
             }
             p {
                 margin-left: 15%;
+                margin-top: 10px;
                 width: 70%;
-                margin-top: 80px;
+                letter-spacing: 2.8px;
                 text-align: center;
                 font-size: 40px;
                 font-weight: 600;
-                color: #245c7c;
+                color: white;
                 text-transform: uppercase;
             }
         }
@@ -76,6 +47,7 @@
                 transition: all .2s ease-in-out;
                 border-radius: 1px;
                 &:hover {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     transform: scale(1.1);
                     
                 }

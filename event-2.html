@@ -24,9 +24,17 @@
     <div class="event-body">
         <div class="header-wrapper">
             <div class="header">
-                <img src="../images/final-draft/GENIUS BRACESTORM-01.png" alt="">
-                <p>Orthodontic Management of Patients:</br>
-                A Simple Approach from Start to Finish</p>
+<!--                <img src="../images/final-draft/GENIUS BRACESTORM-01.png" alt="">-->
+                <h2>GENIUS BRACESTORM™</h2>
+                <h1>Orthodontic Management of Patients: A Simple</h1>
+                  <h1>  Approach from Start to Finish</h1>
+                
+                <p>BAYFRONT HOTEL, NORTH RECLAMATION AREA</p>
+                <p>CEBU CITY, PHILIPPINES</p>
+                <p>AUGUST 09, 2018</p>
+                <div class='line'></div>
+                <p id="info">THIS EVENT IS PRESENTED BY <span id="bold">DDM ENTERPRISE</span> AND <span id="bold">BMTC </span> IN COOPERATION WITH <span id="bold">SOUTHWESTERN UNIVERSITY</span> AND <span id="bold">UNIVERSITY OF THE PILIPPINES COLLEGE OF DENTISTRY.</span></p>
+                
             </div>
         </div>
         <div class="wrapper">
@@ -41,22 +49,14 @@
                 <li id="details" class="title-2">
                     <div class="details-wrapper">
                         <h1>EVENT DETAILS</h1>
-                        <o>Date</o>
-                        <p>August 09, 2018</p>
-                        <p>Venue</p>
-                        <p>Bayfront Hotel</br>
-                    North Reclamation Area </br>
-                    Cebu City, Philippines</p>
                     </div>
                 </li>
                 <li id="register">
                     <div class="register-wrapper title-3">
                         <p>- REGISTER</p>
                     </div>
-                    <div class="download-button">
-                        <a href="images/final-draft/final-draft-4.jpg" download="regform">
-                        <p>DOWNLOAD FORM</p>
-                            </a>
+                    <div class="download-button title-4">
+                        <p>REGISTER HERE</p>
                     </div>
                 </li>
             </ul>
@@ -78,6 +78,39 @@
 			<img src="images/final-draft/final-draft-6.jpg">
 		</div>
 	</div>
+     <div class="modal4 modal-title-4">
+		<div class="modal-content">
+            <h1 class="close">x</h1>
+            <p>REGISTRATION FORM</p>
+            <div class="form">
+            <form method="post" action="https://formspree.io/willanddadia@gmail.com">
+                  <select class="form-control" id="option" required>
+                    <option> </option>
+                    <option>OPTION 1</option>
+                    <option>OPTION 2</option>
+                    </select>
+                
+					<input type="text" name="name" placeholder="First Name" required>
+                
+					<input type="text" name="name" placeholder="Middle Name" required>
+                
+					<input type="text" name="name" placeholder="Last Name" required>
+                
+					<textarea placeholder="Address" name="address" required></textarea>
+                
+                    <input type="text" type="text" name="license" placeholder="prc license no." required>
+                    <label style="color: white">EXPIRY DATE</label>
+                    <input type="date" type="text" name="expiry" placeholder="expiry date" required>
+                
+                    <input type="text" type="email" name="email" placeholder="email" required>
+                
+                    <input type="text" name="contact" placeholder="Contact Number" required>
+                
+					<button id="submit" type="submit">SUBMIT</button>
+				</form>
+            </div>
+		</div>
+	</div>
     
     <div id="contactTemplate"></div>
     
@@ -92,18 +125,18 @@
 		$(document).ready(function() {
 
 			$('.title-1').on('click', function() {
-                console.log($(this).hasClass('.title-1'));
 					$('.modal1').css("display","flex");
 			});
             
 			$('.title-2').on('click', function() {
-                console.log($(this).hasClass('.title-1'));
 					$('.modal2').css("display","flex");
-			});
+            });
               
 			$('.title-3').on('click', function() {
-                console.log($(this).hasClass('.title-1'));
 					$('.modal3').css("display","flex");
+			});  
+			$('.title-4').on('click', function() {
+					$('.modal4').css("display","flex");
 			});
             
 			$('.modal-title-1').on('click', function(){
@@ -116,6 +149,10 @@
             
 			$('.modal-title-3').on('click', function(){
 				$('.modal3').css('display','none');
+			});
+            
+			$('.close').on('click', function(){
+				$('.modal4').css('display','none');
 			});
 			
 		});

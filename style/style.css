@@ -265,6 +265,7 @@ header {
   .contact .wrapper .right input, .contact .wrapper .right textarea {
     display: block;
     width: 80%;
+    color: #FFFFFF;
     margin: 0 auto;
     background: none;
     margin-bottom: 20px;
@@ -280,11 +281,14 @@ header {
     max-width: 80%;
     min-width: 80%;
     max-height: 200px; }
-  .contact .wrapper .right input[type="submit"] {
+  .contact .wrapper .right #submit {
     background: #FFFFFF;
     color: #0097e6;
-    box-sizing: border-box;
-    padding: 15px 0; }
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
 
 .footer {
   text-align: center;

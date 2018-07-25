@@ -134,19 +134,22 @@ header {
     margin-bottom: 75px; }
     .hero .wrapper .slider .slide {
       width: 100%;
-      height: 420px;
+      height: 500px;
       text-indent: -10000px; }
       .hero .wrapper .slider .slide.slide-1 {
-        background-image: url("../images/hero-1.jpg");
+        background-image: url("../images/ddm-banner1.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-2 {
-        background-image: url("../images/hero-2.jpg");
+        background-image: url("../images/ddm-banner2.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-3 {
-        background-image: url("../images/hero-3.jpg");
+        background-image: url("../images/ddm-banner3.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-4 {
-        background-image: url("../images/hero-4.png");
+        background-image: url("../images/ddm-banner4.jpg");
+        background-size: cover; }
+      .hero .wrapper .slider .slide.slide-5 {
+        background-image: url("../images/ddm-banner5.jpg");
         background-size: cover; }
     .hero .wrapper .slider .slick-arrow:before {
       color: #0097e6; }

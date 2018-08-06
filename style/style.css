@@ -63,6 +63,8 @@ header {
   header .wrapper nav {
     width: 100%;
     text-align: center; }
+    header .wrapper nav ul .contact-button:hover {
+      cursor: pointer; }
     header .wrapper nav ul li {
       border-top: 5px solid #FFFFFF;
       box-sizing: border-box;

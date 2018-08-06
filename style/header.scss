@@ -10,6 +10,9 @@ header {
 			width: 100%;
 			text-align: center;
 			ul {
+                .contact-button:hover {
+                    cursor: pointer;
+                }
 				li {
 					border-top: 5px solid $color-white;
 					box-sizing: border-box;

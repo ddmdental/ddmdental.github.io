@@ -1,0 +1,38 @@
+.main {
+    width: 1000px;
+    margin: 150px auto;
+    
+    p {
+        font-size: 40px;
+        font-weight: 600;
+        color: #0097e6;
+        text-transform: uppercase;
+    }
+    
+    .wrapper {
+        .box {
+        padding: 25px 25px;
+        display : inline-block;
+        min-width: 220px;
+        min-height: 320px;
+            #input {
+                margin: 0 25px;
+                position: relative;
+                min-width: 220px;
+                height: 300px;
+                background-size: 220px 300px;
+                }&:hover {
+            background-color: lightgray;
+                    cursor:pointer;
+        }
+            h1 {
+                margin: 10px 25px;
+                text-align: center;
+                color: black;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}

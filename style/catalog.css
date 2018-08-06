@@ -1,0 +1,30 @@
+.main {
+  width: 1000px;
+  margin: 150px auto; }
+  .main p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0097e6;
+    text-transform: uppercase; }
+  .main .wrapper .box {
+    padding: 25px 25px;
+    display: inline-block;
+    min-width: 220px;
+    min-height: 320px; }
+    .main .wrapper .box #input {
+      margin: 0 25px;
+      position: relative;
+      min-width: 220px;
+      height: 300px;
+      background-size: 220px 300px; }
+    .main .wrapper .box:hover {
+      background-color: lightgray;
+      cursor: pointer; }
+    .main .wrapper .box h1 {
+      margin: 10px 25px;
+      text-align: center;
+      color: black; }
+  .main .wrapper a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=catalog.css.map */

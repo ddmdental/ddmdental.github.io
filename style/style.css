@@ -139,22 +139,22 @@ header {
       height: 700px;
       text-indent: -10000px; }
       .hero .wrapper .slider .slide.slide-1 {
-        background-image: url("../images/event-4/hero.jpg");
+        background-image: url("../images/event-4/1-01.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-2 {
-        background-image: url("../images/event-4/hero.jpg");
+        background-image: url("../images/event-4/2-01.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-3 {
-        background-image: url("../images/event-4/hero1.jpg");
+        background-image: url("../images/event-4/3-01.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-4 {
-        background-image: url("../images/event-4/hero2.jpg");
+        background-image: url("../images/event-4/4-01.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-5 {
-        background-image: url("../images/event-4/hero3.jpg");
+        background-image: url("../images/event-4/5-01.jpg");
         background-size: cover; }
       .hero .wrapper .slider .slide.slide-6 {
-        background-image: url("../images/event-4/hero4.jpg");
+        background-image: url("../images/event-4/6-01.jpg");
         background-size: cover; }
     .hero .wrapper .slider .slick-arrow:before {
       color: #0097e6; }

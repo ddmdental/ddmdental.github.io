@@ -1,87 +1,113 @@
 .event {
-  width: 1000px;
-  margin: 200px auto 100px auto; }
-  .event .banner h1 {
-    color: #0097e6;
-    font-weight: 600;
-    font-size: 40px;
-    margin-bottom: 20px;
-    z-index: 2;
-    text-transform: uppercase;
-    display: inline-block; }
-  .event .upcoming {
-    margin: 10px auto;
-    color: rgba(219, 220, 221, 0.9); }
-  .event .underline {
-    margin: 10px auto;
-    width: 100%;
-    height: 1px;
-    background: rgba(219, 220, 221, 0.6); }
-  .event .float {
-    margin: 5px 0;
-    display: inline-block;
-    transition-duration: .3s;
-    transition-property: transform;
-    background-color: #fcfbfb;
-    height: 200px;
-    width: 1000px; }
-    .event .float:hover {
-      transform: translateY(-10px);
-      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-      background: rgba(219, 220, 221, 0.3); }
-    .event .float .container {
-      overflow: hidden;
-      height: 200px;
-      width: 1000px;
-      margin: 0; }
-      .event .float .container .shaped {
-        float: left;
-        height: 200px;
-        width: 500px;
-        background: black center top no-repeat;
-        background-size: cover;
-        border: 0;
-        shape-outside: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
-        shape-margin: 20px;
-        -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
-        overflow: hidden; }
-        .event .float .container .shaped .text-container {
-          color: black;
-          margin: 20px;
-          width: 100px;
-          height: 160px;
-          background-color: rgba(219, 220, 221, 0.3); }
-          .event .float .container .shaped .text-container h1 {
-            padding: 20px 0 10px 0;
-            text-align: center;
-            font-size: 30px; }
-          .event .float .container .shaped .text-container h2 {
-            padding: 10px 0 20px 0;
-            text-align: center;
-            font-size: 50px;
-            font-weight: 700; }
-    .event .float .content {
-      float: left;
-      height: 200px;
-      width: 500px;
-      overflow: hidden;
-      color: #0097e6; }
-      .event .float .content #title {
-        margin: 20px 0px 5px 0px;
-        font-size: 25px; }
-      .event .float .content #location {
-        margin: 20px 0;
-        font-size: 18px;
-        color: black; }
-      .event .float .content #time {
-        margin: 0 0;
-        font-size: 18px;
-        color: black; }
-      .event .float .content #text {
-        color: rgba(219, 220, 221, 0.9);
-        margin: 5px 20px 0 0px;
-        font-size: 17px;
-        letter-spacing: 0.5px;
-        font-family: serif; }
+  width: 80%;
+  margin: 200px auto 0 auto;
+}
+.event .banner h1 {
+  text-align: center;
+  color: #0097e6;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 100px;
+  z-index: 2;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.event .events {
+  padding: 25px 0;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px #d4d4d4;
+  background-color: #fcfbfb;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.event .events .title {
+  text-align: center;
+  color: #A9A9A9;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.event .float {
+  margin: 10px 2.5%;
+  border-radius: 15px;
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: #ffffff;
+  height: 200px;
+  width: 95%;
+}
+.event .float:hover {
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background: rgba(219, 220, 221, 0.3);
+}
+.event .float .container {
+  overflow: hidden;
+  height: 200px;
+  margin: 0;
+}
+.event .float .container .shaped {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  float: left;
+  height: 200px;
+  width: 50%;
+  background: black center top no-repeat;
+  background-size: cover;
+  border: 0;
+  shape-outside: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  shape-margin: 20px;
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+.event .float .container .shaped .text-container {
+  color: black;
+  margin: 20px;
+  width: 100px;
+  height: 160px;
+  background-color: rgba(219, 220, 221, 0.3);
+}
+.event .float .container .shaped .text-container h1 {
+  padding: 20px 0 10px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.event .float .container .shaped .text-container h2 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.event .float .content {
+  float: left;
+  height: 200px;
+  width: 50%;
+  overflow: hidden;
+  color: #0097e6;
+}
+.event .float .content #title {
+  text-transform: uppercase;
+  margin: 20px 0px 5px 0px;
+  font-size: 25px;
+}
+.event .float .content #location {
+  margin: 20px 0;
+  font-size: 18px;
+  color: black;
+}
+.event .float .content #time {
+  margin: 0 0;
+  font-size: 18px;
+  color: black;
+}
+.event .float .content #text {
+  color: rgba(219, 220, 221, 0.9);
+  margin: 5px 20px 0 0px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-family: serif;
+}
 
 /*# sourceMappingURL=event.css.map */

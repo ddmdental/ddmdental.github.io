@@ -173,19 +173,27 @@ header .wrapper nav ul li a {
   text-indent: -10000px;
 }
 .hero .wrapper .slider .slide.slide-1 {
-  background-image: url("../images/banner-feb-01.jpg");
+  background-image: url("../images/banner/banner-feb-01.jpg");
   background-size: cover;
 }
 .hero .wrapper .slider .slide.slide-2 {
-  background-image: url("../images/banner-feb-02.jpg");
+  background-image: url("../images/banner/banner-feb-02.jpg");
   background-size: cover;
 }
 .hero .wrapper .slider .slide.slide-3 {
-  background-image: url("../images/banner-feb-03.jpg");
+  background-image: url("../images/banner/banner-feb-03.jpg");
   background-size: cover;
 }
 .hero .wrapper .slider .slide.slide-4 {
-  background-image: url("../images/banner-feb-04.jpg");
+  background-image: url("../images/banner/banner-feb-04.jpg");
+  background-size: cover;
+}
+.hero .wrapper .slider .slide.slide-5 {
+  background-image: url("../images/banner/MPROMO5.jpg");
+  background-size: cover;
+}
+.hero .wrapper .slider .slide.slide-6 {
+  background-image: url("../images/banner/MPROMO8.jpg");
   background-size: cover;
 }
 .hero .wrapper .slider .slick-arrow:before {
@@ -300,9 +308,10 @@ header .wrapper nav ul li a {
 }
 
 .contact {
+  width: 100%;
   background-color: #0097e6;
   text-align: center;
-  padding-top: 80px;
+  padding: 40px 0;
 }
 .contact h1 {
   color: #FFFFFF;
@@ -311,51 +320,125 @@ header .wrapper nav ul li a {
   font-weight: 600;
   margin-bottom: 40px;
 }
-.contact .wrapper .left, .contact .wrapper .right {
+.contact .wrapper {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact .wrapper .title {
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.contact .wrapper .social-media-icons {
+  display: flex;
+}
+.contact .wrapper .social-media-icons .icon {
+  margin-right: 10px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+.contact .wrapper .social-media-icons .icon:hover {
+  background-color: white;
+  opacity: 0.8;
+}
+.contact .wrapper .social-media-icons .icon img {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.contact .wrapper .details, .contact .wrapper .about {
   padding: 40px;
   display: inline-block;
-  width: 49%;
+  width: 33%;
   box-sizing: border-box;
   vertical-align: top;
+  line-height: 1.5;
 }
-.contact .wrapper .left {
+.contact .wrapper .about {
+  text-align: left;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+.contact .wrapper .details {
   text-align: left;
 }
-.contact .wrapper .left ul li {
-  font-size: 18px;
-  margin-bottom: 40px;
+.contact .wrapper .details .title {
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.contact .wrapper .details ul li {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
   color: #FFFFFF;
 }
-.contact .wrapper .right input, .contact .wrapper .right textarea {
+.contact .wrapper .form {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  width: 30%;
+  box-shadow: 3px 3px 6px #363e49;
+}
+.contact .wrapper .form .title {
+  color: #a0a0a0;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+.contact .wrapper .form input, .contact .wrapper .form textarea {
+  padding: 0 20px;
+  border-radius: 40px;
+  height: 50px;
   display: block;
   width: 80%;
-  color: #FFFFFF;
-  margin: 0 auto;
-  background: none;
-  margin-bottom: 20px;
-  border: none;
-  border-bottom: 2px solid #FFFFFF;
-  font-size: 18px;
-}
-.contact .wrapper .right input::placeholder, .contact .wrapper .right textarea::placeholder {
-  color: #FFFFFF;
+  font-size: 13px;
   opacity: 0.5;
-  text-transform: uppercase;
+  color: #a0a0a0;
+  margin: 4px auto;
+  background: none;
+  background-color: #e5e5e5;
+  border-width: 0;
 }
-.contact .wrapper .right textarea {
-  height: 200px;
+.contact .wrapper .form input:focus, .contact .wrapper .form textarea:focus {
+  opacity: 1;
+  border-radius: 40px;
+  outline: none;
+}
+.contact .wrapper .form input::placeholder, .contact .wrapper .form textarea::placeholder {
+  font-size: 13px;
+  margin: 0 auto;
+  color: #a0a0a0;
+}
+.contact .wrapper .form textarea {
+  padding: 20px;
+  height: 150px;
   max-width: 80%;
   min-width: 80%;
   max-height: 200px;
+  margin-bottom: 20px;
 }
-.contact .wrapper .right #submit {
-  background: #FFFFFF;
-  color: #0097e6;
-  font-size: 18px;
-  padding: 12px 20px;
+.contact .wrapper .form #submit {
+  width: 90%;
+  background: #0097e6;
+  border-radius: 40px;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  font-size: 15px;
+  padding: 20px 20px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
+}
+.contact .wrapper .form #submit:hover {
+  opacity: 0.8;
 }
 
 .footer {

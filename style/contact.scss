@@ -1,7 +1,8 @@
 .contact {
+	width: 100%;
 	background-color: $color-blue;
 	text-align: center;
-	padding-top: 80px;
+	padding: 40px 0;
 	h1 {
 		color: $color-white;
 		font-size: 40px;
@@ -10,55 +11,128 @@
 		margin-bottom: 40px;
 	}
 	.wrapper {
-		.left, .right {
+		max-width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		.title{
+			letter-spacing: 3px;
+			font-size: 15px;
+			margin-bottom: 30px;
+		}
+		.social-media-icons {
+			display: flex;
+			.icon {
+				margin-right: 10px;
+				border-color: white;
+				border-style: solid;
+				border-radius: 50%;
+				border-width: 1px;
+				display: flex;
+				width: 40px;
+				height: 40px;
+				&:hover{
+					background-color:white;
+					opacity: 0.8;
+				}
+				img {
+					margin: auto;
+					width: 20px;
+					height: 20px;
+					-webkit-filter: invert(1);
+   					filter: invert(1);
+				}
+			}
+		}
+		.details, .about {
 			padding: 40px;	
 			display: inline-block;
-			width: 49%;
+			width: 33%;
 			box-sizing: border-box;
 			vertical-align: top;
+			line-height: 1.5;
 		}
-		.left {
+		.about {
 			text-align: left;
+			font-size: 13px;
+			color: $color-white;
+			letter-spacing: 1px;
+		}
+		.details {
+			text-align: left;
+			.title{
+				letter-spacing: 3px;
+				font-size: 15px;
+				margin-bottom: 30px;
+			}
 			ul {
 				li {
-					font-size: 18px;
-					margin-bottom: 40px;
+					font-size: 13px;
+					letter-spacing: 1px;
+					margin-bottom: 30px;
 					color: $color-white;
 //					text-transform: lowercase;
 				}
 			}
 		}
-		.right {
+		.form {
+			border-radius: 5px;
+			padding: 20px;
+			background-color:white;
+			width: 30%;
+			box-shadow: 3px 3px 6px #363e49;
+			.title {
+				color: #a0a0a0;
+				margin-bottom: 20px;
+				letter-spacing: 3px;
+			}
 			input, textarea {
+				padding: 0 20px;
+				border-radius: 40px;
+				height: 50px;
 				display: block;
 				width: 80%;
-                color: $color-white;
-				margin: 0 auto;
+				font-size: 13px;
+				opacity: 0.5;
+                color: #a0a0a0;
+				margin: 4px auto;
 				background: none;
-				margin-bottom: 20px;
-				border: none;
-				border-bottom: 2px solid $color-white;
-				font-size: 18px;
+				background-color:  #e5e5e5;
+				// border-bottom: 2px solid $color-white;
+				border-width: 0;
+				&:focus{
+					opacity: 1;
+					border-radius:40px;
+					outline: none;
+				}
 				&::placeholder {
-					color: $color-white;
-					opacity: .5;
-					text-transform: uppercase;
+					font-size: 13px;
+					margin:0 auto;
+					color: #a0a0a0;
 				}
 			}
 			textarea {
-				height: 200px;
+				padding: 20px;
+				height: 150px;
 				max-width: 80%;
 				min-width: 80%;
 				max-height: 200px;
+				margin-bottom: 20px;
 			}
 			#submit {
-				background: $color-white;
-				color: $color-blue;
-                font-size: 18px;
-                padding: 12px 20px;
+				width: 90%;
+				background: $color-blue;
+				border-radius: 40px;
+				color: $color-white;
+				letter-spacing: 3px;
+                font-size: 15px;
+                padding: 20px 20px;
                 border: none;
-                border-radius: 4px;
                 cursor: pointer;
+				&:hover {
+					// background-color: $color-white;
+					// color: 
+					opacity: 0.8;
+				}
 			}
  		}
 	}

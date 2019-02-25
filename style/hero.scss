@@ -9,29 +9,29 @@
 				height: 700px;
 				text-indent: -10000px;
 				&.slide-1 {
-					background-image: url('../images/banner-feb-01.jpg');
+					background-image: url('../images/banner/banner-feb-01.jpg');
 					background-size: cover;
 				}
 				&.slide-2 {
-					background-image: url('../images/banner-feb-02.jpg');
+					background-image: url('../images/banner/banner-feb-02.jpg');
 					background-size: cover;
 				}
 				&.slide-3 {
-					background-image: url('../images/banner-feb-03.jpg');
+					background-image: url('../images/banner/banner-feb-03.jpg');
 					background-size: cover;
 				}
 				&.slide-4 {
-					background-image: url('../images/banner-feb-04.jpg');
+					background-image: url('../images/banner/banner-feb-04.jpg');
 					background-size: cover;
 				}
-				// &.slide-5 {
-				// 	background-image: url('../images/event-4/5-01.jpg');
-				// 	background-size: cover;
-				// }
-				// &.slide-6 {
-				// 	background-image: url('../images/event-4/6-01.jpg');
-				// 	background-size: cover;
-				// }
+				&.slide-5 {
+					background-image: url('../images/banner/MPROMO5.jpg');
+					background-size: cover;
+				}
+				&.slide-6 {
+					background-image: url('../images/banner/MPROMO8.jpg');
+					background-size: cover;
+				}
 			}
 			.slick-arrow {
 				&:before {

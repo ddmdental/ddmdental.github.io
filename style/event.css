@@ -2,6 +2,7 @@
   width: 80%;
   margin: 200px auto 0 auto;
 }
+
 .event .banner h1 {
   text-align: center;
   color: #0097e6;
@@ -12,14 +13,17 @@
   letter-spacing: 4px;
   text-transform: uppercase;
 }
+
 .event .events {
   padding: 25px 0;
   border-radius: 15px;
-  box-shadow: 3px 3px 6px #d4d4d4;
+  -webkit-box-shadow: 3px 3px 6px #d4d4d4;
+          box-shadow: 3px 3px 6px #d4d4d4;
   background-color: #fcfbfb;
   width: 100%;
   margin-bottom: 50px;
 }
+
 .event .events .title {
   text-align: center;
   color: #A9A9A9;
@@ -28,26 +32,36 @@
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
+
 .event .float {
   margin: 10px 2.5%;
   border-radius: 15px;
   display: inline-block;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
   background-color: #ffffff;
   height: 200px;
   width: 95%;
 }
+
 .event .float:hover {
-  transform: translateY(-10px);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   background: rgba(219, 220, 221, 0.3);
 }
+
 .event .float .container {
   overflow: hidden;
   height: 200px;
   margin: 0;
 }
+
 .event .float .container .shaped {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -62,6 +76,7 @@
   -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
   overflow: hidden;
 }
+
 .event .float .container .shaped .text-container {
   color: black;
   margin: 20px;
@@ -69,17 +84,20 @@
   height: 160px;
   background-color: rgba(219, 220, 221, 0.3);
 }
+
 .event .float .container .shaped .text-container h1 {
   padding: 20px 0 10px 0;
   text-align: center;
   font-size: 30px;
 }
+
 .event .float .container .shaped .text-container h2 {
   padding: 10px 0 20px 0;
   text-align: center;
   font-size: 50px;
   font-weight: 700;
 }
+
 .event .float .content {
   float: left;
   height: 200px;
@@ -87,21 +105,25 @@
   overflow: hidden;
   color: #0097e6;
 }
+
 .event .float .content #title {
   text-transform: uppercase;
   margin: 20px 0px 5px 0px;
   font-size: 25px;
 }
+
 .event .float .content #location {
   margin: 20px 0;
   font-size: 18px;
   color: black;
 }
+
 .event .float .content #time {
   margin: 0 0;
   font-size: 18px;
   color: black;
 }
+
 .event .float .content #text {
   color: rgba(219, 220, 221, 0.9);
   margin: 5px 20px 0 0px;
@@ -109,5 +131,4 @@
   letter-spacing: 0.5px;
   font-family: serif;
 }
-
 /*# sourceMappingURL=event.css.map */

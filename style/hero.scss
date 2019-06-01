@@ -9,28 +9,58 @@
 				height: 700px;
 				text-indent: -10000px;
 				&.slide-1 {
-					background-image: url('../images/banner/banner-feb-01.jpg');
+					background-image: url('../images/banner/banner-1.jpeg');
 					background-size: cover;
+					background-repeat:no-repeat;
+					background-position: center center;
 				}
 				&.slide-2 {
-					background-image: url('../images/banner/banner-feb-02.jpg');
+					background-image: url('../images/banner/banner-2.jpeg');
 					background-size: cover;
+					background-repeat:no-repeat;
+					background-position: center center;
 				}
 				&.slide-3 {
-					background-image: url('../images/banner/banner-feb-03.jpg');
+					background-image: url('../images/banner/banner-3.jpeg');
 					background-size: cover;
+					background-repeat:no-repeat;
+					background-position: center center;
 				}
-				&.slide-4 {
-					background-image: url('../images/banner/banner-feb-04.jpg');
-					background-size: cover;
-				}
-				&.slide-5 {
+				// &.slide-4 {
+				// 	background-image: url('../images/banner/banner-4.jpeg');
+				// 	background-size: cover;
+				// 	background-repeat:no-repeat;
+				// 	background-position: center center;
+				// }
+				// &.slide-5 {
+				// 	background-image: url('../images/banner/banner-5.jpeg');
+				// 	background-size: cover;
+				// 	background-repeat:no-repeat;
+				// 	background-position: center center;
+				// }
+				// &.slide-6 {
+				// 	background-image: url('../images/banner/banner-6.jpeg');
+				// 	background-size: cover;
+				// 	background-repeat:no-repeat;
+				// 	background-position: center center;
+				// }
+				// &.slide-7 {
+				// 	background-image: url('../images/banner/banner-7.jpeg');
+				// 	background-size: cover;
+				// 	background-repeat:no-repeat;
+				// 	background-position: center center;
+				// }
+				&.slide-8 {
 					background-image: url('../images/banner/MPROMO5.jpg');
 					background-size: cover;
+					background-repeat:no-repeat;
+					background-position: center center;
 				}
-				&.slide-6 {
+				&.slide-9 {
 					background-image: url('../images/banner/MPROMO8.jpg');
 					background-size: cover;
+					background-repeat:no-repeat;
+					background-position: center center;
 				}
 			}
 			.slick-arrow {

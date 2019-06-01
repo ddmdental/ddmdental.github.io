@@ -6,137 +6,197 @@
   position: relative;
   width: 1000px;
   height: 650px;
-  background-image: url(../images/event-3.jpg);
-  -webkit-text-stroke: 1px black; }
-  .specific .banner-image .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 70px;
-    letter-spacing: 15px; }
+  -webkit-text-stroke: 1px black;
+}
+
+.specific .banner-image .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 70px;
+  letter-spacing: 15px;
+}
+
 .specific .data-sec {
   margin: 0 auto;
   position: relative;
   width: 900px;
   height: auto;
-  background-color: white; }
-  .specific .data-sec h1 {
-    padding-top: 30px;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-align: center; }
-  .specific .data-sec p {
-    font-style: italic;
-    padding: 25px 100px 25px 100px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 20px; }
-    .specific .data-sec p .title {
-      color: #6a94ac;
-      font-weight: 600; }
-    .specific .data-sec p .title-contact {
-      color: black;
-      padding: 0; }
-  .specific .data-sec table {
-    border: 1px solid black;
-    width: 700px;
-    margin: 0 auto 30px auto;
-    border-spacing: 5px; }
-  .specific .data-sec th {
-    border: 1px solid black;
-    padding: 15px;
-    color: white; }
-  .specific .data-sec td {
-    border: 1px solid black;
-    padding: 15px; }
-  .specific .data-sec .schedule {
-    display: inline-block;
-    width: 100%;
-    background-color: #6a94ac;
-    text-align: center; }
-    .specific .data-sec .schedule h2 {
-      color: white;
-      padding: 5px;
-      font-size: 25px; }
-  .specific .data-sec .schedule-details {
-    border: 1px solid #6a94ac;
-    background-color: white;
-    text-align: left; }
-    .specific .data-sec .schedule-details h3 {
-      text-align: left;
-      margin: 0 20px;
-      line-height: 25px; }
-  .specific .data-sec .speaker {
-    margin-top: 50px;
-    display: inline-block;
-    width: 100%;
-    border: 1px solid #6a94ac;
-    background-color: #6a94ac;
-    text-align: center; }
-    .specific .data-sec .speaker h2 {
-      color: white;
-      padding: 5px;
-      font-size: 25px; }
-  .specific .data-sec .speaker-wrapper {
-    width: 100%;
-    height: 375;
-    border: 1px solid #6a94ac;
-    padding-bottom: 10px;
-    padding-top: 10px; }
-    .specific .data-sec .speaker-wrapper img {
-      width: 250px;
-      height: 250px;
-      display: inline-block;
-      margin: auto; }
-    .specific .data-sec .speaker-wrapper .details {
-      display: inline-block;
-      width: 640px;
-      height: 375px;
-      background-color: white;
-      position: relative; }
-      .specific .data-sec .speaker-wrapper .details p {
-        text-align: left;
-        padding: 0px;
-        font-size: 14px; }
-        .specific .data-sec .speaker-wrapper .details p .title {
-          margin-top: 10px;
-          font-size: 20px; }
-    .specific .data-sec .speaker-wrapper h4 {
-      margin: 5px; }
-  .specific .data-sec .data-image {
-    padding: 40px 0 150px 0;
-    margin: 0 auto;
-    width: 500px; }
-    .specific .data-sec .data-image .overlay {
-      margin: 0 auto;
-      height: 333px;
-      width: 500px;
-      position: absolute;
-      background: rgba(219, 220, 221, 0.3);
-      z-index: 2; }
-    .specific .data-sec .data-image img {
-      width: 100%;
-      margin: 0 auto; }
-  .specific .data-sec .register {
-    border: 1px solid #6a94ac;
-    margin-bottom: 50px; }
-  .specific .data-sec .contact-register {
-    margin-bottom: 50px; }
-    .specific .data-sec .contact-register h2 {
-      padding: 0 50px;
-      text-align: left; }
-    .specific .data-sec .contact-register p {
-      text-align: left;
-      padding: 5px 200px; }
-    .specific .data-sec .contact-register h5 {
-      text-align: center;
-      line-height: 20px;
-      font-size: 18px;
-      font-weight: 600; }
-    .specific .data-sec .contact-register h6 {
-      text-align: center;
-      font-style: italic; }
+  background-color: white;
+}
 
+.specific .data-sec h1 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.specific .data-sec p {
+  font-style: italic;
+  padding: 25px 100px 25px 100px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.specific .data-sec p .title {
+  color: #6a94ac;
+  font-weight: 600;
+}
+
+.specific .data-sec p .title-contact {
+  color: black;
+  padding: 0;
+}
+
+.specific .data-sec table {
+  border: 1px solid black;
+  width: 700px;
+  margin: 0 auto 30px auto;
+  border-spacing: 5px;
+}
+
+.specific .data-sec th {
+  border: 1px solid black;
+  padding: 15px;
+  color: white;
+}
+
+.specific .data-sec td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.specific .data-sec .schedule {
+  display: inline-block;
+  width: 100%;
+  background-color: #6a94ac;
+  text-align: center;
+}
+
+.specific .data-sec .schedule h2 {
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.specific .data-sec .schedule-details {
+  border: 1px solid #6a94ac;
+  background-color: white;
+  text-align: left;
+}
+
+.specific .data-sec .schedule-details h3 {
+  text-align: left;
+  margin: 0 20px;
+  line-height: 25px;
+}
+
+.specific .data-sec .speaker {
+  margin-top: 50px;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #6a94ac;
+  background-color: #6a94ac;
+  text-align: center;
+}
+
+.specific .data-sec .speaker h2 {
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.specific .data-sec .speaker-wrapper {
+  width: 100%;
+  height: 375;
+  border: 1px solid #6a94ac;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.specific .data-sec .speaker-wrapper img {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin: auto;
+}
+
+.specific .data-sec .speaker-wrapper .details {
+  display: inline-block;
+  width: 640px;
+  height: 375px;
+  background-color: white;
+  position: relative;
+}
+
+.specific .data-sec .speaker-wrapper .details p {
+  text-align: left;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.specific .data-sec .speaker-wrapper .details p .title {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.specific .data-sec .speaker-wrapper h4 {
+  margin: 5px;
+}
+
+.specific .data-sec .data-image {
+  padding: 40px 0 150px 0;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.specific .data-sec .data-image .overlay {
+  margin: 0 auto;
+  height: 333px;
+  width: 500px;
+  position: absolute;
+  background: rgba(219, 220, 221, 0.3);
+  z-index: 2;
+}
+
+.specific .data-sec .data-image img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.specific .data-sec .register {
+  border: 1px solid #6a94ac;
+  margin-bottom: 50px;
+}
+
+.specific .data-sec .contact-register {
+  margin-bottom: 50px;
+}
+
+.specific .data-sec .contact-register h2 {
+  padding: 0 50px;
+  text-align: left;
+}
+
+.specific .data-sec .contact-register p {
+  text-align: left;
+  padding: 5px 200px;
+}
+
+.specific .data-sec .contact-register h5 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.specific .data-sec .contact-register h6 {
+  text-align: center;
+  font-style: italic;
+}
 /*# sourceMappingURL=event-3.css.map */

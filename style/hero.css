@@ -13,13 +13,6 @@
   text-indent: -10000px;
 }
 
-.hero .wrapper .slider .slide.slide-1 {
-  background-image: url("../images/banner/banner-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .hero .wrapper .slider .slide.slide-2 {
   background-image: url("../images/banner/banner-2.jpg");
   background-size: cover;
